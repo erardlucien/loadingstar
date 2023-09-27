@@ -3,11 +3,13 @@
 let stars = document.querySelectorAll('.star');
 const STARNUMBER = stars.length;
 let index = 0;
+let indexStarIncompleted = STARNUMBER - 1;
 let timeout;
 
 function active() {
 
-    if(index === STARNUMBER) {
+    if(index === indexStarIncompleted) {
+        stars[index].classList.add('star-incompleted');
         index = 0;
         clearTimeout(timeout);
     } else {
