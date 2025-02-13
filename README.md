@@ -1,3 +1,3 @@
 # loadingstar
 
-https://erardlucien.github.io/loadingstar/
+[demo](https://erardlucien.github.io/loadingstar/)
